@@ -1,0 +1,8 @@
+//Demonstrates how I created a camera shake effect in unreal engine, by creating a new class called camerashake1 inherited from the unreal engine MatineeCamera Shake class.
+
+//Set my own shake values in the mycamerashake1.cpp files.
+
+//Added a new subclass value of matineeshake called MyShake in the character.h file.
+
+//Added the myshake value in the OnFire() function in the character.cpp file.
+//in the editor, this lets me pick the mycamerashake1 class from the drop down menue when I search myshake in the details pane of the character actor in the engine.
