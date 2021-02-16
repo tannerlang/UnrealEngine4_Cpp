@@ -1,5 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+//destroy actor on overlap events in UE4 can be used for picking up items in the world like ammo, health, etc... where the item is destroyed in the world when picked up.
 #pragma once
 
 #include "CoreMinimal.h"
