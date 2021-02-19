@@ -1,0 +1,11 @@
+I followed unreal documentation to create this.
+
+created scene component hierarchy for a pawn. then built a new pawn movement component class (collidingmovement.cpp) to use for the pawns movement with the UE tick function
+used pawn movement comp members in the new derived colldingpawnmovement.cpp file to give it the ability to interact with collisions surfaces and other environment physics stuff.
+overrode the main colliding pawn tick function
+overrode the main colliding pawn playerinput function
+
+added and bound new inputs for the pawn
+added a spring arm for the camera and attached the camera comp to it.
+
+used pawn movement comp members in the new derived colldingpawnmovement.cpp file to give it the ability to interact with collisions surfaces and other environment physics stuff.
