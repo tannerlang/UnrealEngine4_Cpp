@@ -1,0 +1,5 @@
+Overrode the tick function in the Character.h and Character.cpp files for my current world.
+
+Created a line trace starting at the players gun, and using the player camera as a basis for the vector direction (forward)
+set up FHitResults with collision and drawdebug events to print what the player is hitting with the line trace, and the point of impact position and normal position
+used a drawdebugline every frame to see where the line is hitting in the editor.
