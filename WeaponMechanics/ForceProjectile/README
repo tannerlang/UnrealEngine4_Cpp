@@ -1,0 +1,2 @@
+Removed the default projectile for the FP Character and created a new projectile (just a simple line trace) that hase a large force effect.
+force effect pushes any actors in the world with a moveable root component that can interact with the AddForce() function.
