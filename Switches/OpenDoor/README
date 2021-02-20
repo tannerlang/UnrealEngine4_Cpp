@@ -1,0 +1,7 @@
+Created a door and built gave it the ability to open and close.
+
+Bound the opening and closing to the OnAction() function of the character.cpp/.h and used the toggledoor() function.
+
+Used DotProduct with the character's forwardvector camera location to help determine what side of the door he is on,
+which is then used when finding the max degree of the swing of the door, relative to the player's location.
+
